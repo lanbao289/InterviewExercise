@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry excluding="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/kafka/kafka-clients/2.3.0/kafka-clients-2.3.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/luben/zstd-jni/1.4.0-1/zstd-jni-1.4.0-1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar"/>
+	<classpathentry kind="lib" path="/home/test/softs/lib-json/jackson-annotations-2.10.0.pr2.jar"/>
+	<classpathentry kind="lib" path="/home/test/softs/lib-json/jackson-core-2.10.0.pr2.jar"/>
+	<classpathentry kind="lib" path="/home/test/softs/lib-json/jackson-databind-2.10.0.pr2.jar"/>
+	<classpathentry kind="lib" path="/home/test/softs/lib-json/jackson-dataformat-csv-2.10.0.pr2.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
